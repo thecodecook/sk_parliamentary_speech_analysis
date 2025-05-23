@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon? # Custom icon files on macOS
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE / Editor specific files
+.vscode/
+.idea/ # For JetBrains IDEs (PyCharm, IntelliJ, etc.)
+*.sublime-workspace
+*.sublime-project
+*~ # Common backup file extension (e.g., for Vim, Emacs)
+*.swp # Vim swap files
+*.swo # Vim swap files
+
+# Python specific (common for analysis projects)
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environments
+# Common names for virtual environment folders.
+# If you use a different name, add it here.
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables file (often contains secrets)
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
