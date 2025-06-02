@@ -28,15 +28,17 @@ Speeches are scored across predefined dimensions critical to contemporary Slovak
 ### Methodology
 
 The core methodology involves analyzing each parliamentary speech using multiple LLMs. 
-Specifically, every speech was independently evaluated by four distinct models: Gemini 2.5 Flash, Claude 3.5 Haiku, 
-GPT-4.1 mini, and DeepSeek V3. 
+Specifically, every speech was independently evaluated by five distinct models: Gemini 2.5 Flash, Claude 3.5 Haiku, Claude Sonnet 4,
+GPT-4.1 mini, and DeepSeek V3. However, we subsequently replaced Claude 3.5 Haiku with the newer Claude Sonnet 4,
+ultimately using four LLMs for our analysis.
 The scores from these models were then aggregated to provide a more reliable measure of the expressed political stances.
 The full prompt and preprocessing used can be found in [Political_speech_analysis_preprocessing.ipynb](Political_speech_analysis_preprocessing.ipynb).
 
 ### Results
 
 Detailed results can be found and painfully read from [Political_speech_analysis_political_views.ipynb](Political_speech_analysis_political_views.ipynb).
-An easily accessible 3D scatter plot visualization of current politicians' political stances can be found [here](https://thecodecook.github.io/sk_parliamentary_speech_analysis/politicians_views_dist/).
+For better readability, we recommend viewing the notebook through the Google Colab rendered version by following the link provided within the notebook.
+An easily accessible standalone 3D scatter plot visualization of current politicians' political stances can be found [here](https://thecodecook.github.io/sk_parliamentary_speech_analysis/politicians_views_dist/).
 
 
 ## Topics Analysis
